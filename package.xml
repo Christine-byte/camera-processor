@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>camera_processor</name>
+  <name>camera-processor</name>
   <version>0.1.0</version>
   <description>ROS2 node for camera capture, detection and depth measurement</description>
 
