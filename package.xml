@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
-<package format="2">
-  <name>camera_processor</name>
+<package format="3">
+  <name>photo_capture</name>
   <version>0.1.0</version>
-  <description>ROS2 node for camera capture, detection and depth measurement</description>
-
-  <maintainer email="your@email.com">Your Name</maintainer>
+  <description>ROS2 C++ node that captures photo on trigger</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -13,10 +12,8 @@
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
   <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
   <depend>OpenCV</depend>
-  <depend>nlohmann_json</depend>
 
-  <export>
-    <build_type>ament_cmake</build_type>
-  </export>
+  <exec_depend>ament_cmake</exec_depend>
 </package>
